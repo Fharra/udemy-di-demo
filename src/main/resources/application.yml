@@ -1,0 +1,15 @@
+guru:
+  user: user
+  password: password
+  url: myUrl
+  other:
+    user: userOther
+    password: passwordOther
+    url: myOthUrls
+
+---
+spring:
+  profiles: de
+guru:
+  oth:
+    user: I'm a German user
